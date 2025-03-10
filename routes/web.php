@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\PublishPodcastController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +14,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::post('podcasts/{podcast}/publish', PublishPodcastController::class)
-->name('podcasts.publish');
